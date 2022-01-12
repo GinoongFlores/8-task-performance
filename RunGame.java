@@ -1,14 +1,13 @@
 package Eight_Task_Performance;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class RunGame implements Story, Survival, Name {
     public void readStory() {
-        System.out.println("\nWelcome to Story Mode");
+        System.out.println("\n--------------------Welcome to Story Mode--------------------");
     }
     public void survivalMode() {
-        System.out.println("\nWelcome to Survival Mode");
+        System.out.println("\n--------------------Welcome to Survival Mode--------------------");
     }
 
     public void userName(String name) {
